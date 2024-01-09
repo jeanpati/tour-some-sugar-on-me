@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&display=swap');
+
+h1,h2 {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    font-family: 'Afacad';
+}
+
+.details {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around
+    
+}
+
+.detail--column {
+    border: 2px dotted black;
+    margin: 1em
+}
+
+.details__bookings {
+    padding: 1em;
+    flex-basis:100%
+}
+
+.details__venues {
+    padding: 1em;
+    flex-basis:40%
+}
+
+.details__bands {
+    padding: 1em;
+    flex-basis:40%
+}
